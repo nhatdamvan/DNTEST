@@ -1,0 +1,577 @@
+{
+  "companyInfo": {
+    "companyId": "CUG_INSMART_VN",
+    "companyName": "Insmart Vietnam",
+    "totalEmployees": 1100,
+    "testDate": "2024-12-21",
+    "lastUpdated": "2025-06-24T10:30:00Z"
+  },
+  
+  "coverPageData": {
+    "metrics": {
+      "chqScore": 73,
+      "chqLevel": "Above Average",
+      "totalEmployees": 1100,
+      "employeesTested": 411,
+      "participationRate": 37.4,
+      "employeesConsulted": 127,
+      "consultationRate": 30.9,
+      "smartReportsAccessed": 352,
+      "smartReportsRate": 85.6
+    },
+    "keyHighlights": [
+      "Company health score 5% above industry average",
+      "High participation in Ho Chi Minh City office",
+      "Excellent BMI distribution - 72% in normal range",
+      "Strong engagement with smart reports platform"
+    ]
+  },
+  
+  "overviewPageData": {
+    "filters": {
+      "locations": ["All Locations", "Hanoi", "Ho Chi Minh City", "Da Nang", "Can Tho", "Hai Phong"],
+      "ageGroups": ["All Ages", "20-30 yr", "30-40 yr", "40-50 yr", "50-60 yr", "60+ yr"],
+      "genders": ["All", "Male", "Female"]
+    },
+    
+    "chqDetails": {
+      "score": 73,
+      "category": "Above Average",
+      "industryAverage": 69,
+      "percentileBetter": 5,
+      "strengths": [
+        "Low smoking prevalence (8%)",
+        "Good BMI distribution (72% normal)",
+        "High health awareness"
+      ],
+      "improvements": [
+        "High cholesterol (35% affected)",
+        "Low HDL cholesterol (37% affected)",
+        "Vitamin D deficiency (24% affected)"
+      ]
+    },
+    
+    "participationFunnel": {
+      "totalEmployees": 1100,
+      "healthChecksDone": 411,
+      "smartReportsAccessed": 352,
+      "consultationsBooked": 127
+    },
+    
+    "demographics": {
+      "location": [
+        {"name": "Hanoi", "total": 700, "tested": 325, "percentage": 46.4},
+        {"name": "Ho Chi Minh City", "total": 250, "tested": 86, "percentage": 34.4},
+        {"name": "Da Nang", "total": 80, "tested": 0, "percentage": 0},
+        {"name": "Can Tho", "total": 50, "tested": 0, "percentage": 0},
+        {"name": "Hai Phong", "total": 20, "tested": 0, "percentage": 0}
+      ],
+      "gender": [
+        {"name": "Male", "total": 275, "tested": 101, "percentage": 36.7},
+        {"name": "Female", "total": 825, "tested": 310, "percentage": 37.6}
+      ],
+      "age": [
+        {"range": "20-30 yr", "total": 385, "tested": 144, "percentage": 37.4},
+        {"range": "30-40 yr", "total": 495, "tested": 185, "percentage": 37.4},
+        {"range": "40-50 yr", "total": 165, "tested": 62, "percentage": 37.6},
+        {"range": "50-60 yr", "total": 44, "tested": 16, "percentage": 36.4},
+        {"range": "60+ yr", "total": 11, "tested": 4, "percentage": 36.4}
+      ]
+    },
+    
+    "riskPredictions": {
+      "cvd": {
+        "highRiskPercentage": 12.5,
+        "highRiskCount": 51,
+        "status": "unlocked",
+        "mostAffected": {
+          "demographic": "Males, 45-55 years",
+          "percentage": 28,
+          "location": "Hanoi office"
+        }
+      },
+      "diabetes": {
+        "highRiskPercentage": 8.1,
+        "highRiskCount": 33,
+        "status": "locked",
+        "hraProgress": 15,
+        "hraRequired": 20,
+        "message": "Need 5% more HRA participation to unlock"
+      },
+      "hypertension": {
+        "highRiskPercentage": 15.2,
+        "highRiskCount": 62,
+        "status": "unlocked",
+        "mostAffected": {
+          "demographic": "Ages 35-45",
+          "percentage": 22,
+          "location": "Both offices"
+        }
+      }
+    },
+    
+    "healthConcerns": [
+      {"name": "High LDL (Bad Cholesterol)", "affected": 144, "total": 411, "percentage": 35},
+      {"name": "Low HDL (Good Cholesterol)", "affected": 152, "total": 411, "percentage": 37},
+      {"name": "High Triglycerides", "affected": 148, "total": 411, "percentage": 36},
+      {"name": "High Total Cholesterol", "affected": 115, "total": 411, "percentage": 28},
+      {"name": "Low Vitamin D", "affected": 99, "total": 411, "percentage": 24},
+      {"name": "Elevated Blood Pressure", "affected": 90, "total": 411, "percentage": 22},
+      {"name": "Pre-diabetic (HbA1c 5.7-6.4)", "affected": 74, "total": 411, "percentage": 18}
+    ],
+    
+    "healthWins": [
+      {"name": "Normal BMI (18.5-24.9)", "normal": 296, "total": 411, "percentage": 72},
+      {"name": "Normal Blood Sugar", "normal": 337, "total": 411, "percentage": 82},
+      {"name": "Good Liver Function", "normal": 349, "total": 411, "percentage": 85},
+      {"name": "Normal Kidney Function", "normal": 370, "total": 411, "percentage": 90},
+      {"name": "Non-Smokers", "normal": 378, "total": 411, "percentage": 92}
+    ]
+  },
+  
+  "comparisonPageData": {
+    "healthMarkers": {
+      "lipid": {
+        "parameters": [
+          {"name": "Total Cholesterol", "company": 188.03, "vietnamAvg": 195, "unit": "mg/dL", "ideal": "<200", "trend": "better"},
+          {"name": "LDL Cholesterol", "company": 113.8, "vietnamAvg": 108.9, "unit": "mg/dL", "ideal": "<100", "trend": "worse"},
+          {"name": "HDL Cholesterol", "company": 45.7, "vietnamAvg": 42.8, "unit": "mg/dL", "ideal": ">40", "trend": "better"},
+          {"name": "Triglycerides", "company": 115.7, "vietnamAvg": 135.1, "unit": "mg/dL", "ideal": "<150", "trend": "better"}
+        ],
+        "yearlyTrends": {
+          "2023": {"cholesterol": 195, "ldl": 120, "hdl": 42, "triglycerides": 125},
+          "2024": {"cholesterol": 188, "ldl": 114, "hdl": 46, "triglycerides": 116}
+        }
+      },
+      "liver": {
+        "parameters": [
+          {"name": "ALT (SGPT)", "company": 28.5, "vietnamAvg": 32.2, "unit": "U/L", "ideal": "<40", "trend": "better"},
+          {"name": "AST (SGOT)", "company": 26.3, "vietnamAvg": 28.1, "unit": "U/L", "ideal": "<35", "trend": "better"},
+          {"name": "Bilirubin", "company": 0.8, "vietnamAvg": 0.9, "unit": "mg/dL", "ideal": "0.2-1.2", "trend": "better"}
+        ]
+      },
+      "kidney": {
+        "parameters": [
+          {"name": "Creatinine", "company": 0.85, "vietnamAvg": 0.90, "unit": "mg/dL", "ideal": "0.6-1.2", "trend": "better"},
+          {"name": "BUN", "company": 12.5, "vietnamAvg": 13.2, "unit": "mg/dL", "ideal": "7-20", "trend": "better"},
+          {"name": "eGFR", "company": 92, "vietnamAvg": 89, "unit": "mL/min", "ideal": ">90", "trend": "better"}
+        ]
+      },
+      "diabetes": {
+        "parameters": [
+          {"name": "Fasting Glucose", "company": 92.3, "vietnamAvg": 95.6, "unit": "mg/dL", "ideal": "70-100", "trend": "better"},
+          {"name": "HbA1c", "company": 5.4, "vietnamAvg": 5.6, "unit": "%", "ideal": "<5.7", "trend": "better"}
+        ]
+      },
+      "thyroid": {
+        "parameters": [
+          {"name": "TSH", "company": 2.1, "vietnamAvg": 2.3, "unit": "mIU/L", "ideal": "0.4-4.0", "trend": "better"},
+          {"name": "Free T4", "company": 1.2, "vietnamAvg": 1.1, "unit": "ng/dL", "ideal": "0.8-1.8", "trend": "similar"}
+        ]
+      },
+      "vitamins": {
+        "parameters": [
+          {"name": "Vitamin D", "company": 28.5, "vietnamAvg": 25.2, "unit": "ng/mL", "ideal": ">30", "trend": "better"},
+          {"name": "Vitamin B12", "company": 425, "vietnamAvg": 390, "unit": "pg/mL", "ideal": ">400", "trend": "better"}
+        ]
+      },
+      "cardiac": {
+        "parameters": [
+          {"name": "Blood Pressure (Systolic)", "company": 122, "vietnamAvg": 125, "unit": "mmHg", "ideal": "<120", "trend": "better"},
+          {"name": "Blood Pressure (Diastolic)", "company": 78, "vietnamAvg": 80, "unit": "mmHg", "ideal": "<80", "trend": "better"}
+        ]
+      },
+      "hemogram": {
+        "parameters": [
+          {"name": "Hemoglobin", "company": 13.8, "vietnamAvg": 13.5, "unit": "g/dL", "ideal": "12-16", "trend": "better"},
+          {"name": "WBC Count", "company": 6.5, "vietnamAvg": 6.8, "unit": "K/μL", "ideal": "4-11", "trend": "better"},
+          {"name": "Platelet Count", "company": 245, "vietnamAvg": 250, "unit": "K/μL", "ideal": "150-400", "trend": "similar"}
+        ]
+      }
+    },
+    
+    "topIssuesComparison": [
+      {"issue": "High LDL Cholesterol", "company": 35, "vietnamAvg": 42, "count": "144/411", "severity": "high"},
+      {"issue": "Low HDL Cholesterol", "company": 37, "vietnamAvg": 45, "count": "152/411", "severity": "high"},
+      {"issue": "High Triglycerides", "company": 36, "vietnamAvg": 39, "count": "148/411", "severity": "medium"},
+      {"issue": "High Total Cholesterol", "company": 28, "vietnamAvg": 33, "count": "115/411", "severity": "medium"},
+      {"issue": "Low Vitamin D", "company": 24, "vietnamAvg": 47, "count": "99/411", "severity": "medium"},
+      {"issue": "Overweight (BMI 25-30)", "company": 18, "vietnamAvg": 22, "count": "74/411", "severity": "low"},
+      {"issue": "Pre-diabetes", "company": 18, "vietnamAvg": 20, "count": "74/411", "severity": "medium"}
+    ],
+    
+    "riskComparison": {
+      "cvd": {"company": 12.5, "vietnamAvg": 15.6, "improvement": true},
+      "diabetes": {"company": 8.1, "vietnamAvg": 12.3, "improvement": true},
+      "hypertension": {"company": 15.2, "vietnamAvg": 18.4, "improvement": true}
+    },
+    
+    "biologicalAge": {
+      "company": {
+        "male": {"chronological": 36, "biological": 38, "difference": 2},
+        "female": {"chronological": 34, "biological": 35, "difference": 1},
+        "overall": {"chronological": 35, "biological": 36.5, "difference": 1.5}
+      },
+      "vietnamAvg": {
+        "male": {"chronological": 36, "biological": 39, "difference": 3},
+        "female": {"chronological": 34, "biological": 36, "difference": 2},
+        "overall": {"chronological": 35, "biological": 37.5, "difference": 2.5}
+      }
+    },
+    
+    "locationComparison": {
+      "hanoi_vs_hcm": {
+        "cholesterol": {"hanoi": 189, "hcm": 185, "unit": "mg/dL"},
+        "ldl": {"hanoi": 115, "hcm": 110, "unit": "mg/dL"},
+        "hdl": {"hanoi": 44, "hcm": 48, "unit": "mg/dL"},
+        "triglycerides": {"hanoi": 118, "hcm": 108, "unit": "mg/dL"},
+        "bmi": {"hanoi": 22.8, "hcm": 22.2, "unit": "kg/m²"},
+        "bloodPressure": {"hanoi": "124/79", "hcm": "120/77", "unit": "mmHg"}
+      }
+    }
+  },
+  
+  "actionPlanPageData": {
+    "keyHealthInsights": {
+      "primaryConcerns": [
+        {
+          "area": "Cardiovascular Health",
+          "affectedEmployees": 296,
+          "percentage": 72,
+          "description": "72% of employees have at least one lipid abnormality (High LDL, Low HDL, or High Triglycerides)"
+        },
+        {
+          "area": "Metabolic Health",
+          "affectedEmployees": 74,
+          "percentage": 18,
+          "description": "18% showing pre-diabetic indicators, requiring preventive intervention"
+        },
+        {
+          "area": "Nutritional Deficiencies",
+          "affectedEmployees": 99,
+          "percentage": 24,
+          "description": "24% have Vitamin D deficiency, common in office workers"
+        }
+      ],
+      "positiveFindings": [
+        "72% maintain healthy BMI",
+        "92% are non-smokers",
+        "85% have normal liver function"
+      ]
+    },
+    
+    "consolidatedActionPlan": {
+      "healthAwarenessCampaigns": [
+        {
+          "id": "heart_health_month",
+          "title": "Heart Health & Wellness Month",
+          "date": "September 2025",
+          "keyEvent": "World Heart Day (Sep 29)",
+          "dataJustification": "72% of employees have lipid abnormalities - our biggest health challenge",
+          "integratedActivities": [
+            {
+              "activity": "Know Your Numbers Week",
+              "description": "Free lipid profile and BP screening for all employees",
+              "targetMetric": "Screen 100% of employees who missed annual checkup"
+            },
+            {
+              "activity": "Heart-Healthy Cooking Contest",
+              "description": "Teams create healthy versions of favorite Vietnamese dishes",
+              "targetMetric": "Engage 50% of departments"
+            },
+            {
+              "activity": "Step Challenge Launch",
+              "description": "Department vs department 10,000 steps daily challenge",
+              "targetMetric": "60% employee participation"
+            },
+            {
+              "activity": "Stress Management Workshops",
+              "description": "Weekly sessions on managing workplace stress",
+              "targetMetric": "Reduce stress-related health issues by 20%"
+            }
+          ],
+          "expectedOutcome": "10% reduction in high cholesterol cases within 6 months"
+        },
+        {
+          "id": "metabolic_wellness_campaign",
+          "title": "Beat Diabetes Before It Starts",
+          "date": "November 2025",
+          "keyEvent": "World Diabetes Day (Nov 14)",
+          "dataJustification": "18% pre-diabetic rate needs urgent intervention",
+          "integratedActivities": [
+            {
+              "activity": "Sugar-Smart Challenge",
+              "description": "30-day challenge to reduce sugar intake with app tracking",
+              "targetMetric": "300+ participants"
+            },
+            {
+              "activity": "HbA1c Screening Drive",
+              "description": "Free HbA1c tests for all employees",
+              "targetMetric": "Identify and support all pre-diabetic employees"
+            },
+            {
+              "activity": "Lunch & Learn Series",
+              "description": "Weekly sessions on reading food labels and making smart choices",
+              "targetMetric": "Train 80% of employees"
+            },
+            {
+              "activity": "Family Health Day",
+              "description": "Include families in health screening and education",
+              "targetMetric": "Screen 200+ family members"
+            }
+          ],
+          "expectedOutcome": "Reduce pre-diabetes prevalence from 18% to 12%"
+        },
+        {
+          "id": "sunshine_vitamin_initiative",
+          "title": "Sunshine & Wellness Quarter",
+          "date": "January-March 2025",
+          "keyEvent": "Addresses 24% Vitamin D deficiency",
+          "dataJustification": "Nearly 1 in 4 employees have Vitamin D deficiency",
+          "integratedActivities": [
+            {
+              "activity": "Outdoor Activity Clubs",
+              "description": "Morning tai chi, weekend hiking, outdoor sports",
+              "targetMetric": "Create 5 active clubs with 50+ members each"
+            },
+            {
+              "activity": "Sunshine Breaks",
+              "description": "Designated 15-min outdoor breaks with walking paths",
+              "targetMetric": "70% daily participation"
+            },
+            {
+              "activity": "Nutrition Fortification",
+              "description": "Vitamin D enriched foods in cafeteria",
+              "targetMetric": "All dairy products fortified"
+            }
+          ],
+          "expectedOutcome": "Reduce Vitamin D deficiency to under 15%"
+        }
+      ],
+      
+      "organizationalHealthChallenges": [
+        {
+          "name": "Insmart Wellness League",
+          "duration": "Year-round with quarterly themes",
+          "structure": "Department-based teams competing for wellness trophy",
+          "dataRationale": "Addresses multiple risk factors through gamification",
+          "quarterlyThemes": [
+            {
+              "Q1": "Move More Challenge",
+              "focus": "Physical activity to improve HDL and reduce metabolic risks",
+              "activities": ["Step counting", "Active commute", "Sports tournaments"],
+              "metric": "Average 8,000 steps/day company-wide"
+            },
+            {
+              "Q2": "Eat Smart Challenge",
+              "focus": "Nutrition to address cholesterol and pre-diabetes",
+              "activities": ["Healthy lunch photos", "Sugar reduction", "Portion control"],
+              "metric": "50% reduction in sugary drink consumption"
+            },
+            {
+              "Q3": "Stress Less Challenge",
+              "focus": "Mental wellness impacting overall health",
+              "activities": ["Meditation minutes", "Work-life balance", "Sleep tracking"],
+              "metric": "30% improvement in stress scores"
+            },
+            {
+              "Q4": "Health Champion Challenge",
+              "focus": "Comprehensive wellness habits",
+              "activities": ["Health screening completion", "Preventive care", "Peer support"],
+              "metric": "80% complete annual health checks"
+            }
+          ],
+          "rewards": [
+            "Quarterly winner: Team celebration budget",
+            "Annual champion: Extra wellness leave days",
+            "Individual achievers: Health gadgets and gym memberships"
+          ]
+        }
+      ],
+      
+      "cafeteriaTransformation": {
+        "name": "Nourish Well Initiative",
+        "dataJustification": "72% have lipid issues, 18% pre-diabetic - diet is crucial",
+        "phaseImplementation": [
+          {
+            "phase": 1,
+            "timeline": "Month 1-2",
+            "changes": [
+              {
+                "category": "Immediate Quick Wins",
+                "items": [
+                  "Replace white rice with 50/50 white-brown rice blend",
+                  "Introduce fresh fruit station (addressing Vitamin D with fortified options)",
+                  "Replace sugary drinks with infused water stations",
+                  "Add calorie and macro labels to all items"
+                ]
+              }
+            ]
+          },
+          {
+            "phase": 2,
+            "timeline": "Month 3-4",
+            "changes": [
+              {
+                "category": "Heart-Healthy Vietnamese Options",
+                "items": [
+                  "Low-sodium pho with lean protein options",
+                  "Grilled dishes replacing fried versions",
+                  "Fresh spring rolls as default appetizer",
+                  "Omega-3 rich fish dishes twice weekly"
+                ]
+              }
+            ]
+          },
+          {
+            "phase": 3,
+            "timeline": "Month 5-6",
+            "changes": [
+              {
+                "category": "Smart Portion & Choice Architecture",
+                "items": [
+                  "Smaller plates to control portions",
+                  "Vegetables served first in buffet line",
+                  "Healthy options at eye level",
+                  "Traffic light labeling (green/yellow/red)"
+                ]
+              }
+            ]
+          }
+        ],
+        "specialPrograms": [
+          {
+            "name": "Meatless Mondays",
+            "benefit": "Reduce saturated fat intake"
+          },
+          {
+            "name": "Fish Fridays",
+            "benefit": "Increase omega-3 for heart health"
+          },
+          {
+            "name": "Rainbow Plate Challenge",
+            "benefit": "Encourage vegetable variety"
+          }
+        ],
+        "expectedImpact": "15% improvement in lipid profiles within 6 months"
+      },
+      
+      "sustainableWellnessPrograms": [
+        {
+          "program": "Active Workplace Design",
+          "rationale": "37% low HDL linked to sedentary behavior",
+          "implementations": [
+            "Standing desk options for all employees",
+            "Walking meeting routes marked around office",
+            "Centralized printers to encourage movement",
+            "Fitness equipment in break rooms"
+          ],
+          "metric": "Increase daily movement by 2,000 steps average"
+        },
+        {
+          "program": "Wellness Wednesday Series",
+          "rationale": "Address multiple risk factors through education",
+          "monthlyTopics": [
+            "Understanding your health numbers",
+            "Heart-healthy cooking demos",
+            "Stress and its impact on health",
+            "Sleep hygiene for metabolic health",
+            "Building sustainable exercise habits"
+          ],
+          "metric": "70% attendance rate"
+        },
+        {
+          "program": "Peer Health Champions",
+          "rationale": "Leverage 72% with normal BMI to inspire others",
+          "structure": [
+            "Train 50 volunteer health champions",
+            "Each champion supports 10-15 colleagues",
+            "Monthly champion meetings and training",
+            "Recognition program for impact"
+          ],
+          "metric": "Each champion helps 5 colleagues improve one health metric"
+        }
+      ],
+      
+      "measurementAndAccountability": {
+        "quarterlyHealthPulse": {
+          "description": "Mini health checks every quarter",
+          "metrics": ["Blood pressure", "BMI", "Waist circumference", "Stress level"],
+          "participation": "Target 90% voluntary participation"
+        },
+        "dashboardTracking": {
+          "realTimeMetrics": [
+            "Challenge participation rates",
+            "Cafeteria healthy choice selections",
+            "Wellness event attendance",
+            "Health improvement trends"
+          ],
+          "monthlyReporting": "Department heads receive team health scorecards"
+        },
+        "annualImpactAssessment": {
+          "compareMetrics": [
+            "Reduction in high-risk categories",
+            "Healthcare cost trends",
+            "Productivity indicators",
+            "Employee satisfaction with wellness programs"
+          ]
+        }
+      }
+    },
+    
+    "implementationTimeline": {
+      "immediate": {
+        "week1-2": [
+          "Launch awareness campaign on current health statistics",
+          "Form wellness committee with employee representatives",
+          "Start daily morning stretch sessions",
+          "Install water stations and remove sugary drinks"
+        ]
+      },
+      "month1": [
+        "Roll out first wellness challenge",
+        "Begin cafeteria phase 1 changes",
+        "Schedule Q1 health awareness events",
+        "Train peer health champions"
+      ],
+      "quarter1": [
+        "Complete first quarterly health pulse",
+        "Launch comprehensive step challenge",
+        "Implement standing desk pilot program",
+        "Evaluate and adjust programs based on participation"
+      ],
+      "sixMonths": [
+        "Mid-year health screening",
+        "Assess program effectiveness",
+        "Plan expansion to other locations",
+        "Celebrate success stories"
+      ]
+    },
+    
+    "budgetJustification": {
+      "roi": "Every $1 spent on wellness returns $3.27 in reduced healthcare costs",
+      "priorityInvestments": [
+        {
+          "item": "Health screenings and tests",
+          "rationale": "Early detection saves treatment costs",
+          "allocation": "35%"
+        },
+        {
+          "item": "Cafeteria improvements",
+          "rationale": "Daily impact on 100% of employees",
+          "allocation": "25%"
+        },
+        {
+          "item": "Fitness programs and equipment",
+          "rationale": "Addresses top risk factor (lipids)",
+          "allocation": "20%"
+        },
+        {
+          "item": "Education and awareness",
+          "rationale": "Sustainable behavior change",
+          "allocation": "20%"
+        }
+      ]
+    }
+  }
+}

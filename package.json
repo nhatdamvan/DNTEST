@@ -1,0 +1,51 @@
+{
+  "name": "intelli-system",
+  "version": "1.0.0",
+  "description": "Smart Report System - React + Node.js for Vietnam deployment",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\" \"npm run worker\"",
+    "server": "nodemon server/app.js",
+    "client": "cd client && npm start",
+    "build": "cd client && CI=false GENERATE_SOURCEMAP=false npm run build",
+    "start": "node server/app.js",
+    "install-server": "npm install",
+    "setup": "npm run install-server && npm run install-client",
+    "worker": "node server/workers/batchProcessingWorker.js",
+    "demographic-worker": "node server/workers/demographicWorker.js"
+  },
+  "keywords": [
+    "health",
+    "reports",
+    "react",
+    "vietnam",
+    "analytics"
+  ],
+  "author": "Smart Report Team",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bullmq": "^5.56.0",
+    "chart.js": "^4.5.0",
+    "cors": "^2.8.5",
+    "csv-parse": "^5.6.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.1.5",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^2.0.1",
+    "nodemailer": "^6.10.1",
+    "path": "^0.12.7",
+    "pg": "^8.11.3",
+    "react-chartjs-2": "^5.3.0",
+    "recharts": "^2.15.3",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

@@ -1,0 +1,11 @@
+node_modules
+client/node_modules
+client/build
+.git
+.env
+*.log
+.DS_Store
+coverage
+.vscode
+server/node_modules
+server/package-lock.json
