@@ -46,7 +46,7 @@ async function deleteAdminUser(id) {
 
 async function findAdminUserByUsernameOrEmail(username) {
   const result = await query(
-    'SELECT * FROM admin_users WHERE email = $1 OR username = $1',
+    'SELECT * FROM admin_users WHERE email = $1',
     [username]
   );
   return result.rows[0];
